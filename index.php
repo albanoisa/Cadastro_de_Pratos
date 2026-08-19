@@ -48,7 +48,7 @@ $usuarios = $pdo->query("SELECT * FROM usuarios ORDER BY nome")->fetchAll(PDO::F
 </head>
 <body>
     <div class="container">
-        <h1>🍽️ Sistema de Gestão do Restaurante</h1>
+        <h1> Sistema de Gestão do Restaurante</h1>
         
         <nav>
             <a href="index.php">Início / Cadastros</a>
